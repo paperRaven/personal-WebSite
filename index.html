@@ -1,13 +1,116 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <meta content="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <script src="./prefix..js"></script>
+    <meta charset="utf-8">
     <title>LookTheRaven</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimum-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/fontello.css">
   </head>
   <body>
-    <h1>LookTheRaven</h1>
+    <header class="header">
+      <div class="contenedor">
+        <h1 class="logo">LookTheRaven</h1>
+        <span class="icon-menu" id="btn-menu"></span>
+        <nav class="nav" id="nav">
+          <ul class="menu">
+            <li class="m_item"><a class="m_link select" href="#">Inicio</a></li>
+            <li class="m_item"><a class="m_link" href="#">Proyectos</a></li>
+            <li class="m_item"><a class="m_link" href="#">Skills</a></li>
+            <li class="m_item"><a class="m_link" href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="banner">
+      <img src="./img/01.jpg" alt="" class="banner-img">
+      <div class="contenedor">
+        <h2 class="banner-titulo">Bienvenidos a mi sitio web</h2>
+        <p class="banner-txt">I can’t understand why people are frightened of new ideas.
+           I’m frightened of the old ones. <br><b>-John Cage </b></br></p>
+      </div>
+    </div>
+    <main class="main">
+      <div class="contenedor">
+        <section class="info">
+          <article class="info-columna">
+            <img src="./img/inf1.jpg" alt="" class="info-img">
+            <h2 class="info-titulo">FrontEnd Developer</h2>
+            <p class="info-txt">Graphic design, also known as communication design,
+              is the art and practice of planning and projecting ideas and experiences
+              with visual and textual content.</p>
+          </article>
+          <article class="info-columna">
+            <img src="./img/inf3.jpg" alt="" class="info-img">
+            <h2 class="info-titulo">Graphic Designer</h2>
+            <p class="info-txt">Graphic design, also known as communication design,
+              is the art and practice of planning and projecting ideas and experiences
+              with visual and textual content.</p>
+          </article>
+          <article class="info-columna">
+            <img src="./img/inf4.jpg" alt="" class="info-img">
+            <h2 class="info-titulo">Videogame Developer</h2>
+            <p class="info-txt">Graphic design, also known as communication design,
+              is the art and practice of planning and projecting ideas and experiences
+              with visual and textual content. </p>
+          </article>
+          <article class="info-columna">
+            <img src="./img/inf5.jpg" alt="" class="info-img">
+            <h2 class="info-titulo">eSports analyst</h2>
+            <p class="info-txt">Graphic design, also known as communication design,
+              is the art and practice of planning and projecting ideas and experiences
+              with visual and textual content.</p>
+          </article>
+        </section>
+        <section class="cursos">
+          <h2 class="section-titulo">Cursos</h2>
+          <div class="cursos-columna">
+            <img src="./img/mongodb.jpg" alt="" class="cursos-img">
+            <div class="cursos-desc">
+              <h3 class="cursos-titulo">MongoDB</h3>
+              <p class="cursos-txt">Graphic design, also known as communication design, is the art
+                and practice of planning and projecting ideas and experiences with visual and textual content.</p>
+            </div>
+          </div>
+          <div class="cursos-columna">
+            <img src="./img/curso3.jpg" alt="" class="cursos-img">
+            <div class="cursos-desc">
+              <h3 class="cursos-titulo">ionic JS</h3>
+              <p class="cursos-txt">Graphic design, also known as communication design, is the art
+                and practice of planning and projecting ideas and experiences with visual and textual content.</p>
+            </div>
+          </div>
+          <div class="cursos-columna">
+            <img src="./img/curso2.jpg" alt="" class="cursos-img">
+            <div class="cursos-desc">
+              <h3 class="cursos-titulo">Angular 2</h3>
+              <p class="cursos-txt">Graphic design, also known as communication design, is the art
+                and practice of planning and projecting ideas and experiences with visual and textual content.</p>
+            </div>
+          </div>
+          <div class="cursos-columna">
+            <img src="./img/curso1.jpg" alt="" class="cursos-img">
+            <div class="cursos-desc">
+              <h3 class="cursos-titulo">node JS</h3>
+              <p class="cursos-txt">Graphic design, also known as communication design, is the art
+                and practice of planning and projecting ideas and experiences with visual and textual content.</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="social">
+        <a class="icon-facebook"></a>
+        <a class="icon-twitter"></a>
+        <a class="icon-twitch"></a>
+        <a class="icon-googleplus"></a>
+        <a class="icon-linkedin"></a>
+      </div>
+      <p class="copy">&copy; Todos los derechos reservados</p>
+    </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
